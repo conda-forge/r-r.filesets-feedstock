@@ -1,4 +1,4 @@
-{% set version = '2.11.0' %}
+{% set version = "2.12.1" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/R.filesets_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/R.filesets/R.filesets_{{ version }}.tar.gz
-  sha256: 086ccb07b530b5146a2d5c94e5d52813ac342f192727554fd8a969fc0d6a5542
+  sha256: 4bd564d95e2a17ccc5dfdce4e8cfc6dd63ab81b4139d0ac27df2c05e261f2d3f
 
 build:
   number: 0
