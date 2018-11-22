@@ -15,17 +15,15 @@ source:
   sha256: 4bd564d95e2a17ccc5dfdce4e8cfc6dd63ab81b4139d0ac27df2c05e261f2d3f
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 1
+  number: 1001
   rpaths:
     - lib/R/lib/
     - lib/
 
 # Suggests: future (>= 1.7.0), gtools (>= 3.5.0)
 requirements:
-  build:
-    - {{posix}}zip               # [win]
-
   host:
     - r-base
     - r-r.cache >=0.13.0
