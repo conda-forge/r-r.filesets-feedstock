@@ -15,9 +15,7 @@ Current build status
 ====================
 
 
-<table><tr>
-    
-    <td>All platforms:</td>
+<table><tr><td>All platforms:</td>
     <td>
       <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3460&branchName=master">
         <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-r.filesets-feedstock?branchName=master">
@@ -120,6 +118,7 @@ Feedstock Maintainers
 
 * [@bgruening](https://github.com/bgruening/)
 * [@cbrueffer](https://github.com/cbrueffer/)
+* [@conda-forge/r](https://github.com/conda-forge/r/)
 * [@daler](https://github.com/daler/)
 * [@dpryan79](https://github.com/dpryan79/)
 * [@jdblischak](https://github.com/jdblischak/)
