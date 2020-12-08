@@ -1,4 +1,4 @@
-{% set version = "2.13.0" %}
+{% set version = "2.14.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,12 +12,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/R.filesets_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/R.filesets/R.filesets_{{ version }}.tar.gz
-  sha256: cf1597227bc2cc4b3f4a2bdf087e1ed33330a8450655d6a72236d105f0f39988
+  sha256: 707dd7c099aeadbecebbd2ba57e6400405aa44487c641f3729ce06c4c642bb23
 
 build:
   noarch: generic
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
